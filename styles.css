@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Reset the boring default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the stage with global elegance */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6; /* Elevate your text to new heights with exquisite line spacing */
+}
+
+/* Header styles */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px; /* Resize the masterpiece with bold strokes */
+    height: 100px; /* Amplify the artistic presence with grace */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image maintains its captivating aspect ratio */
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    letter-spacing: 2px; /* Add a touch of typographic magic with enchanting letter spacing */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5; /* Let the text dance with harmonious spacing */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center; /* Align the navigation links at the heart of the design canvas */
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px; /* Sculpt button corners into delightful curves */
+    transition: background-color 0.3s ease; /* Animate with the grace of a waltz */
+    display: flex; /* Craft a flexible layout that dances with the text */
+    align-items: center; /* Align text and icons with elegant poise */
+}
+
+nav a img.icon {
+    width: 20px; /* Add a splash of charisma with a larger icon size */
+    height: 20px; /* Let the icons stand tall and proud */
+    margin-right: 8px; /* Give icons a respectful distance on the right */
+}
+
+nav a:hover {
+    background-color: #0057b3; /* Dive into the deep blue sea of enchantment on hover */
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto; /* Center the sections like center stage at a grand performance */
+    max-width: 800px; /* Expand the canvas of your creativity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow that dances with the light */
+    border-radius: 10px; /* Mold sections into graceful curves of elegance */
+}
+
+section h2 {
+    font-size: 28px;
+    color: #0073e6; /* Paint headlines with the striking hue of the ocean's depths */
+}
+
+/* Education item styles */
+.education-item {
+    margin: 20px 0; /* Adjust the top and bottom margin as needed for a balanced composition */
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Sculpt the items into an intricate display of learning */
+    background-color: #f9f9f9; /* Fill the canvas with a tranquil background */
+    display: flex;
+    align-items: center; /* Center-align the content for a harmonious performance */
+}
+
+.education-item img {
+    width: 80px; /* Paint the icons with resplendent dimensions */
+    height: 80px; /* Craft icons that stand as grand works of art */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image retains its regal aspect ratio */
+    margin-right: 20px; /* Add an exquisite space between the image and text */
+}
+
+.education-item p {
+    font-size: 18px;
+    line-height: 1.5; /* Let the words flow in a lyrical rhythm of understanding */
+}
+
+.education-item ul {
+    list-style: disc;
+    margin-left: 20px; /* Create an enchanting list with a captivating left margin */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 40px; /* Add a dramatic entrance for the grand performance */
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Dark mode toggle button styles */
+#dark-mode-toggle {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px; /* Mold the button into a captivating shape */
+    margin-top: 10px; /* Elevate the button to new heights */
+    background-color: #0073e6; /* Immerse the button in the deep blue of transformation */
+    color: #fff;
+}
+
+/* Paint the world in vibrant hues in dark mode */
+.dark-mode h1,
+.dark-mode p,
+.dark-mode ul,
+.dark-mode li {
+    color: #fff; /* Let the text shine with the brilliance of the moonlit night */
+}
