@@ -6,16 +6,16 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Set the stage with global elegance */
+/* Let's set the stage with a touch of global elegance, shall we? */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f2f2f2;
     line-height: 1.6; /* Elevate your text to new heights with exquisite line spacing */
+    background-color: #5284b6;
 }
 
-/* Header styles */
+/* Header styles – Where the magic begins */
 header {
-    background-color: #0073e6;
+    background-color: #0660bb; /* Dip your header in the enchanting depths of the ocean */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -39,11 +39,11 @@ p {
     line-height: 1.5; /* Let the text dance with harmonious spacing */
 }
 
-/* Navigation styles */
+/* Navigation styles – Navigate through the seas of creativity */
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #333;
+    background-color: #333; /* A dark canvas for your navigation journey */
     display: flex;
     justify-content: center; /* Align the navigation links at the heart of the design canvas */
 }
@@ -64,8 +64,8 @@ nav a {
 }
 
 nav a img.icon {
-    width: 20px; /* Add a splash of charisma with a larger icon size */
-    height: 20px; /* Let the icons stand tall and proud */
+    width: 25px; /* Add a splash of charisma with a larger icon size */
+    height: 25px; /* Let the icons stand tall and proud */
     margin-right: 8px; /* Give icons a respectful distance on the right */
 }
 
@@ -73,7 +73,7 @@ nav a:hover {
     background-color: #0057b3; /* Dive into the deep blue sea of enchantment on hover */
 }
 
-/* Section styles */
+/* Section styles – Where stories and magic unfold */
 section {
     background-color: #fff;
     padding: 20px;
@@ -84,11 +84,11 @@ section {
 }
 
 section h2 {
-    font-size: 28px;
-    color: #0073e6; /* Paint headlines with the striking hue of the ocean's depths */
+    font-size: 32px; /* Paint headlines with the striking hue of the ocean's depths */
+    color: #0073e6; /* Add an oceanic touch to your headlines */
 }
 
-/* Education item styles */
+/* Education item styles – Where knowledge meets art */
 .education-item {
     margin: 20px 0; /* Adjust the top and bottom margin as needed for a balanced composition */
     padding: 16px;
@@ -117,35 +117,18 @@ section h2 {
     margin-left: 20px; /* Create an enchanting list with a captivating left margin */
 }
 
-/* Footer styles */
+/* Footer styles – Where the grand finale awaits */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #333; /* A dramatic entrance for the grand performance */
     color: #fff;
     padding: 10px;
     margin-top: 40px; /* Add a dramatic entrance for the grand performance */
 }
 
-/* Dark mode styles */
+/* Dark mode styles – When the moonlight takes over */
 .dark-mode {
     background-color: #333;
     color: #fff;
 }
 
-/* Dark mode toggle button styles */
-#dark-mode-toggle {
-    cursor: pointer;
-    padding: 8px 16px;
-    border-radius: 5px; /* Mold the button into a captivating shape */
-    margin-top: 10px; /* Elevate the button to new heights */
-    background-color: #0073e6; /* Immerse the button in the deep blue of transformation */
-    color: #fff;
-}
-
-/* Paint the world in vibrant hues in dark mode */
-.dark-mode h1,
-.dark-mode p,
-.dark-mode ul,
-.dark-mode li {
-    color: #fff; /* Let the text shine with the brilliance of the moonlit night */
-}
