@@ -7,62 +7,117 @@
   </head>
 
   <body>
-    <h2 id="home"></h2>
-    <h1>Xolani Mvana</h1>
+
+    <header>
+      <div class="nav-container">
+        <h1>Xolani Mvana</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> 
+      </div>
+    </header>
+
+
+   <section id="about-sect">
+
+     <div>
+      <img src="./images/doblexxx.jpg" alt="some dude chilling on a rock" /><br>
+     </div>
+    
+
+     <article>
+      <H2 id="about">About Me</H2><br>
+      <p>Web developer with expertise in HTML, CSS, and JavaScript. Passionate about creating responsive and user-friendly websites. I have a background in computer science and have been working in web development for over 3 years. My focus is on creating clean, efficient, and accessible websites that provide exceptional user experiences.</p>
+      </div>
+    </article>
+
+   </section>
+    
+
+
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Responsive Design</li>
+        <li>UI/UX Design</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+
+      <h2>Projects</h2>
+      <div>
+        <article>
+          <h3>Personal Blog</h3>
+          <p>A responsive blog built with HTML and deployed on GitHub Pages.</p>
+          <a href="https://tshepo1103-lab.github.io/html-portfolio-assessment/#">View Project</a>
+        </article>
+       
+        <article>
+          <h3>Portfolio Site</h3>
+          <p>A personal portfolio showcasing my web development projects. Built with HTML, CSS, and a touch of JavaScript for interactivity.</p>
+
+          <a href="https://tshepo1103-lab.github.io/html-portfolio-assessment/#">View Project</a>
+        </article>
+
+
+        <article>
+          <h3>Weather App</h3>
+          <p>A weather application that fetches real-time weather data from an API and presents it in a clean, easy-to-read format.</p>
+          <a href="https://tshepo1103-lab.github.io/html-portfolio-assessment/#">View Project</a>
+        </article>
+
+      </div>
      
-    <nav class="navbar">
-    <ul class="nav-list">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-
-
-    <img src="./images/xxxxx.jpg" alt="some dude chilling on a rock" /><br>
-
-    <H2 id="about">About Xolani</H2><br>
-    <p>Web developer with expertise in HTML, CSS, and JavaScript. Passionate about creating responsive and user-friendly websites.</p><br>
-    
+      
+    </section>
 
     
+    <section id="contact">
 
-    <h2 id="skills">Skills</h2>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-    </ul><br>
+      <h2>Contact Me</h2>
 
-    <h2 id="projects">Projects</h2><br>
-    <h3>Person Blog</h3><br>
-    <p>A responsive blog built with HTML and deployed on GitHub Pages.</p>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
 
-    <a href="https://tshepo1103-lab.github.io/html-portfolio-assessment/#">View Project</a><br>
 
-    <h3>Portfolio Site</h3><br>
-    <p>A personal portfolio showcasing my web development projects.</p><br>
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
 
-    <a href="https://tshepo1103-lab.github.io/html-portfolio-assessment/#">View Project</a>
+        </div>
 
-    <h2 id="contact">Contact Me</h2>
 
-    <form action="#" method="post">
-      <label for="name">Name</label><br>
-      <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+        <div>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        </div>
 
-      <label for="email">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="your.email@example.com" required><br><br>
+       
+       
+        <button type="submit">Submit</button>
+      </form>
 
-      <label for="message">Message</label><br>
-      <textarea id="message" name="message" placeholder="Your message" required></textarea><br><br>
 
-      <button type="submit">Submit</button>
-    </form>
+    </section>
 
+    
     <footer>
       <div>
         <a href="https://github.com/" target="_blank">GitHub</a> |
