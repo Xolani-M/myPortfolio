@@ -125,3 +125,24 @@ section {
 }
 
 
+/* -------------------------------- */
+/* Skills Section                  */
+/* -------------------------------- */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1.5rem;
+    justify-content: start;
+}
+
+#skills li {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
